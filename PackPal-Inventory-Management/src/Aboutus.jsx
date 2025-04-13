@@ -21,7 +21,7 @@ const teamMembers = [
         role: 'Team Leader',
         avatar: 'https://via.placeholder.com/150?text=Meet',
         github: 'https://github.com/meet-rana',
-        linkedin: 'https://linkedin.com/',
+        linkedin: 'https://www.linkedin.com/in/rana-meet',
         skills: ['Planning', 'Full Stack (React + MUI)', 'FastAPI'],
     },
     {

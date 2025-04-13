@@ -13,7 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import ColorModeIconDropdown from "../../shared-theme/ColorModeIconDropdown";
 import { useNavigate } from 'react-router-dom';
-import { ProfilePage } from '../Dashboard/ProfilePage';
+// import { ProfilePage } from '../Dashboard/ProfilePage';
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
@@ -61,18 +61,18 @@ export const Navbar = () => {
                             <Button variant="text" color="info" size="small" onClick={() => navigate('/admin/allusers')}>
                                 Manage-User
                             </Button>
-                            <Button variant="text" color="info" size="small" onClick={() => navigate('/admin/categorymanage')}>
-                                Manage-Category
+                            <Button variant="text" color="info" size="small">
+                                Manage-Services
                             </Button>
-                            <Button variant="text" color="info" size="small" onClick={() => navigate('/admin/adminanalytics')}>
+                            {/* <Button variant="text" color="info" size="small">
                                 Analytics-Dashboard
-                            </Button>
-                            {/* <Button variant="text" color="info" size="small" onClick={() => navigate('/admin/allproviderusers')}>
+                            </Button> */}
+                            <Button variant="text" color="info" size="small" onClick={() => navigate('/admin/allproviderusers')}>
                                 Manage-Provider
-                            </Button> */}
-                            {/* <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+                            </Button>
+                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
                                 Notifications
-                            </Button> */}
+                            </Button>
                             <Button
                                 variant="text"
                                 color="info"

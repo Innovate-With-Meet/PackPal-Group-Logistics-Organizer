@@ -22,7 +22,11 @@ import ColorModeIconDropdown from "../shared-theme/ColorModeIconDropdown"
 const pages = [
     { name: "Home", path: "/" },
     { name: "About", path: "/aboutus" },
-    { name: "Services", path: "/services" },
+    // { name: "Services", path: "/services" },
+    { name: "Admin", path: "/admin/" },
+    { name: "Owner", path: "/owner/" },
+
+
     // { name: "Contact", path: "/contact" },
     // { name: "Time", path: "/time" },
     // { name: "Provider", path: "/provider" },
@@ -166,9 +170,7 @@ export const Navbar = () => {
                                     "aria-labelledby": "login-button",
                                 }}
                             >
-                                <MenuItem onClick={() => handleMenuItemClick("/UserLogIn")}>User Sign In</MenuItem>
-                                <MenuItem onClick={() => handleMenuItemClick("/AdminLogIn")}>Admin Sign In</MenuItem>
-                                <MenuItem onClick={() => handleMenuItemClick("/ProviderLogIn")}>Provider Sign In</MenuItem>
+                                <MenuItem onClick={() => handleMenuItemClick("/Login")}>Admin Login</MenuItem>
                             </Menu>
                         </Box>
 
@@ -199,9 +201,9 @@ export const Navbar = () => {
                                     "aria-labelledby": "signup-button",
                                 }}
                             >
-                                <MenuItem onClick={() => handleMenuItemClick("/UserRegistration")}>User Sign Up</MenuItem>
-                                <MenuItem onClick={() => handleMenuItemClick("/AdminRegistration")}>Admin Sign Up</MenuItem>
-                                <MenuItem onClick={() => handleMenuItemClick("/ProviderRegistration")}>Provider Sign Up</MenuItem>
+                                <MenuItem onClick={() => handleMenuItemClick("/UserSignup")}>User Sign Up</MenuItem>
+                                <MenuItem onClick={() => handleMenuItemClick("/AdminSignup")}>Admin Sign Up</MenuItem>
+                                <MenuItem onClick={() => handleMenuItemClick("/EmployeeSignup")}>Employee Sign Up</MenuItem>
                             </Menu>
                         </Box>
 
