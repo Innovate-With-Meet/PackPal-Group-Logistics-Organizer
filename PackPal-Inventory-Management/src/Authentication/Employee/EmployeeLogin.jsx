@@ -48,7 +48,7 @@ export const EmployeeLogin = (props) => {
         const password = data.get("password");
 
         try {
-            const response = await axios.post("http://localhost:8000/user/login/", { email, password });
+            const response = await axios.post("http://localhost:8000/Employee/login/", { email, password });
 
             if (response.data.access_token) {
                 storeUserCredentials(response.data.access_token, email);
