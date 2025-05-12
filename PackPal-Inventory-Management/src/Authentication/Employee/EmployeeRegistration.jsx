@@ -198,7 +198,7 @@ export const EmployeeRegistration = (props) => {
                         </Typography>
                     </Box>
                 </Card>
-            </UserRegistrationContainer>
+            </EmployeeRegistrationContainer>
         </AppTheme>
     );
 };
