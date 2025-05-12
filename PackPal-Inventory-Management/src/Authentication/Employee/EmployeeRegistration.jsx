@@ -65,7 +65,7 @@ const UserRegistrationContainer = styled(Stack)(({ theme }) => ({
     },
 }));
 
-export const UserRegistration = (props) => {
+export const EmployeeRegistration = (props) => {
     const [emailError, setEmailError] = React.useState(false);
     const [emailErrorMessage, setEmailErrorMessage] = React.useState("");
     const [passwordError, setPasswordError] = React.useState(false);
