@@ -19,7 +19,7 @@ import ColorModeSelect from "../../shared-theme/ColorModeIconDropdown";
 import { GoogleIcon, FacebookIcon } from "../Components/Customicons";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { GoogleLogin, googleLogout } from "@react-oauth/google";
+{/* do it later for Google authentication import { GoogleLogin, googleLogout } from "@react-oauth/google"; */}
 
 export const EmployeeLogin = (props) => {
     const navigate = useNavigate();
