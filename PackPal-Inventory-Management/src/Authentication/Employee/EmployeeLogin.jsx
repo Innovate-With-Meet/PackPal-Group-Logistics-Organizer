@@ -233,7 +233,7 @@ export const EmployeeLogin = (props) => {
                         <Typography sx={{ textAlign: "center", color: "#2e7d32" }}>
                             Don&apos;t have an account?{" "}
                             <Link
-                                href="/UserRegistration"
+                                href="/Employee Registration"
                                 variant="body2"
                                 sx={{ alignSelf: "center", color: "#1b5e20" }}
                             >
