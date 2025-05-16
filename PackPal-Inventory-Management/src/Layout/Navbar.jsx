@@ -28,7 +28,7 @@ const pages = [
 
 
     // { name: "Contact", path: "/contact" },
-    // { name: "Time", path: "/time" },
+    
     // { name: "Provider", path: "/provider" },
 
     // { name: "BlogPage", path: "/blogpage" },
