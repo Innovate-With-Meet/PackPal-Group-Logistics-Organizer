@@ -108,7 +108,7 @@ export const Navbar = () => {
                             Logout
                         </Button>
 
-                        {/* <ColorModeIconDropdown /> */}
+                        
                     </Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
                         <ColorModeIconDropdown size="medium" />
