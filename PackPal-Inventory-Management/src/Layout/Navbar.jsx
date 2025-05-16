@@ -31,7 +31,7 @@ const pages = [
     
     // { name: "Provider", path: "/provider" },
 
-    // { name: "BlogPage", path: "/blogpage" },
+    
     // { name: "Profile", path: "/UserProfile" },
     // { name: "1.Provider-Request", path: "/ProviderRequestPage" },
     // { name: "2.Dashboard", path: "/dashboard" },
