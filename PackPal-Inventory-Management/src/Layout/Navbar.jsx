@@ -34,7 +34,6 @@ const pages = [
     
     
     // { name: "1.Provider-Request", path: "/ProviderRequestPage" },
-    // { name: "2.Dashboard", path: "/dashboard" },
     
 
 
