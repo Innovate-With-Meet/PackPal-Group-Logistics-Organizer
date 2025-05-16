@@ -227,6 +227,18 @@ export const EmployeeLogin = (props) => {
                         </Link>
                     </Box>
 
+<Divider>or</Divider>
+
+                    <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                        <Typography sx={{ textAlign: "center", color: "#2e7d32" }}>
+                            Don&apos;t have an account?{" "}
+                            <Link
+                                href="/Employee Registration"
+                                variant="body2"
+                                sx={{ alignSelf: "center", color: "#1b5e20" }}
+                            >
+                                Sign up
+                            </Link>
                     
                         </Typography>
                     </Box>
